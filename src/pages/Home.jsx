@@ -10,6 +10,9 @@ import EducationSection from '../components/portfolio/EducationSection';
 import ContactSection from '../components/portfolio/ContactSection';
 import Footer from '../components/portfolio/Footer';
 
+import Project1 from '../images/Project1.PNG';
+import Project2 from '../images/Project2.PNG';  
+
 const HERO_IMAGE = 'https://media.db.com/images/public/6a218e78cff096ac3b689926/3131dd0c5_generated_image.png';
 const ABOUT_IMAGE = 'https://media.db.com/images/public/6a218e78cff096ac3b689926/bbf5191a9_generated_85343257.png';
 
@@ -20,7 +23,7 @@ const PROJECTS = [
     description: 'Pizarra interactiva con herramientas de dibujo y colaboración en tiempo real.',
     tech: 'HTML // Javascript',
     year: '2024',
-    image: '/src/images/Project1.PNG',
+    image: Project1,
     github: 'https://github.com/CarlosBournot/Pizarra_Interactiva',
     live: 'https://interactive-board.netlify.app/',
     stackDetails: ['HTML5','JavaScript', 'Netlify'],
@@ -31,7 +34,7 @@ const PROJECTS = [
     description: 'Aplicación para gestión de un restaurante con menú digital y sistema de pedidos.',
     tech: 'react.js // tailwind // typescript // vite',
     year: '2026',
-    image: '/src/images/Project2.PNG',
+    image: Project2,
     github: 'https://github.com/CarlosBournot/Restaurante-App',
     live: 'https://hcrestaurant-app.netlify.app/',
     stackDetails: ['HTML5', 'CSS3', 'JavaScript ES6', 'Typescript', 'React.js v18', 'Vite', 'Tailwind CSS', 'Netlify'],
