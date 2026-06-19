@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import img from '../../images/img.jpeg';
 
 export default function AboutSection({ aboutImage }) {
   return (
@@ -27,7 +28,7 @@ export default function AboutSection({ aboutImage }) {
             viewport={{ once: true }}
             className="relative rounded-xl overflow-hidden"
           >
-            <img src={'/src/images/img.jpeg'} alt="About" className="w-full object-cover opacity-70 rounded-xl" style={{ aspectRatio: '4/3' }} />
+            <img src={img} alt="About" className="w-full object-cover opacity-70 rounded-xl" style={{ aspectRatio: '4/3' }} />
             <div className="absolute inset-0 rounded-xl" style={{ background: 'linear-gradient(to top, rgba(10,22,40,0.9) 0%, transparent 60%)', border: '1px solid rgba(0,212,255,0.15)' }} />
             <div className="absolute bottom-5 left-5 right-5">
               <div className="font-mono text-xs space-y-1" style={{ color: 'rgba(0,212,255,0.5)' }}>
